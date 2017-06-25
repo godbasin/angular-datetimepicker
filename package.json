@@ -1,0 +1,27 @@
+{
+  "name": "angular-datetimepicker-component",
+  "version": "0.1.0",
+  "description": "bootstrap-datetimepicker in angular4(>=2.0-release)",
+  "main": "index.ts",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godbasin/angular-datetimepicker.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular4",
+    "select2"
+  ],
+  "author": "godbasin <wangbeishan@163.com> (https://github.com/godbasin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/godbasin/angular-datetimepicker/issues"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "homepage": "https://github.com/godbasin/angular-datetimepicker#readme"
+}
