@@ -11,8 +11,11 @@ Angular Datetimepicker Component is baseed on these plugins and libs(version):
 ---
 ### Install
 ``` cmd
-// npm install
+# npm install
 npm install angular-datetimepicker-component --save
+
+# if you have not installed jquery
+npm install jquery --save
 ```
 
 ### Use as component
