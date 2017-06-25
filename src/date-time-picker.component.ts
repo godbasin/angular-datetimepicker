@@ -10,7 +10,7 @@ require('./datetimepicker/bootstrap-datetimepicker.min.js');
 // require('./datetimepicker/bootstrap-datetimepicker.zh-CN.js');
 
 import {Component, Input, AfterViewInit, ElementRef, EventEmitter, Output, ViewEncapsulation} from '@angular/core';
-import {CustomInputComponent, customInputAccessor} from './custom-input.class';
+import {CustomInputComponent, customInputAccessor} from './custom-input';
 
 @Component({
   selector: 'date-time-picker',
