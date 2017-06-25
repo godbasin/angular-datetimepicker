@@ -1,6 +1,6 @@
 {
   "name": "angular-datetimepicker-component",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "bootstrap-datetimepicker in angular4(>=2.0-release)",
   "main": "index.ts",
   "scripts": {
