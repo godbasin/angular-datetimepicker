@@ -4,10 +4,10 @@
  */
 declare var require: any
 const $ = require('jquery');
-require('./datetimepicker/bootstrap-datepicker.js');
+require('./datetimepicker/bootstrap-datetimepicker.js');
 
 // if need chinese
-// require('./datetimepicker/bootstrap-datepicker.zh-CN.js');
+// require('./datetimepicker/bootstrap-datetimepicker.zh-CN.js');
 
 import {Component, Input, AfterViewInit, ElementRef, EventEmitter, Output, ViewEncapsulation} from '@angular/core';
 import {CustomInputComponent, customInputAccessor} from './custom-input';
@@ -15,7 +15,7 @@ import {CustomInputComponent, customInputAccessor} from './custom-input';
 @Component({
   selector: 'date-time-picker',
   template: `<input type="text" class="form-control" [disabled]="disabled" [(ngModel)]="value" (blur)="onBlur()" />`,
-  styleUrls: ['./datetimepicker/bootstrap-datepicker.css'],
+  styleUrls: ['./datetimepicker/bootstrap-datetimepicker.css'],
     encapsulation: ViewEncapsulation.None,
   providers: [customInputAccessor(DateTimePickerComponent)]
 })
